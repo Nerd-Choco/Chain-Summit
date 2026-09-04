@@ -461,9 +461,8 @@ textarea {
 }
 
 .contact-content {
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     padding: 3rem 2rem;
-    gap: 4rem;
+
     background: rgba(255, 255, 255, 0.03) !important;
     border: 1px solid rgba(255, 255, 255, 0.1);
 

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Chain Summit</title>
   </head>
@@ -12,7 +13,7 @@
   <body>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div class="container">
+      <div class="container py-1">
         <a class="navbar-brand" href="#">
           <div class="shape"></div> Chain Summit
         </a>
@@ -24,10 +25,13 @@
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-menu">
             <li class="nav-item">
               <!-- Added default active class for demo -->
+               
               <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#speakers">Speakers</a>
+             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+             <label class="nav-link btn rounded-pill" for="btnradio1" href="#featured-speakers">Speakers</label>
+
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#schedule">Schedule</a>
@@ -43,7 +47,7 @@
       </div>
     </nav>
 
-    <div class="cicles">
+    <div class="bg-circles">
       <div class="circle"></div>
       <div class="circle"></div>
       <div class="circle"></div>
@@ -81,7 +85,8 @@
       <div class="circle"></div>
     </div>
 
-    <section id="home" class="hero container">
+
+    <section id="home" class="hero mt-5 ">
       <div class="hero-content">
         <h1>Chain Summit</h1>
         <P class="home-para pb-2">Where Artificial Intelligence Meets Blockchain Innovation</P>
@@ -136,91 +141,15 @@
 
         </div>
         <div class="home-buttons d-flex gap-3 justify-content-center ">
-          <a href="#about" class="btn btn-primary btn-lg rounded-5 px-4 py-3">Learn more </a>
+          <a href="#about" class="btn btn-primary btn-lg rounded-5 px-4 py-3 theme-btn">Learn more </a>
           <a href="#about" class="btn btn-secondary btn-lg  btn-outline-info  rounded-5 py-3">View Schedule</a>
         </div>
       </div>
     </section>
 
-    <section class="about container py-5 px-2" id="about">
-      <h2 class="section-label">About Chain Summit</h2>
-      <div class="about-content d-flex gap-4 justify-content-center ">
-        <div class="about-text text-lg-start text-sm-center position-relative col-6">
-          <p>Join the world's leading experts in AI and blockchain technology for three days of cutting-edge
-            presentations, hands-on workshops, and networking opportunities that will shape the future of technology.
-          </p>
-          <p>Discover the latest breakthroughs in neural networks, machine learning, decentralized systems, and smart
-            contracts. Connect with innovators who are transforming industries and creating tomorrow's solutions.</p>
-          <p>From ambitious startups to Fortune 500 companies, Chain Summit brings together the brightest minds to
-            explore the revolutionary intersection of artificial intelligence and blockchain technology.</p>
-        </div>
 
-        <div class="visual-icons container p-3 d-flex justify-content-center h-100">
-          <div class="row row-cols-3 g-3  w-50 ">
-            <div class="col">
-              <div class="about-icons">AI</div>
-            </div>
-            <div class="col">
-              <div class="about-icons">ML</div>
-            </div>
-            <div class="col">
-              <div class="about-icons">BC</div>
-            </div>
-            <div class="col">
-              <div class="about-icons">SC</div>
-            </div>
-            <div class="col">
-              <div class="about-icons">DA</div>
-            </div>
-            <div class="col">
-              <div class="about-icons">IoT</div>
-            </div>
-            <div class="col">
-              <div class="about-icons">5G</div>
-            </div>
-            <div class="col">
-              <div class="about-icons">QC</div>
-            </div>
-            <div class="col">
-              <div class="about-icons">AR</div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="about-states d-grid">
-        <div class="card p-1 rounded-4">
-          <div class="card-body">
-            <h5 class="card-title">50+</h5>
-            <p class="card-text">Industry Leaders</p>
-          </div>
-        </div>
-        <div class="card p-1 rounded-4">
-          <div class="card-body">
-            <h5 class="card-title">500+</h5>
-            <p class="card-text">Attendees Expected</p>
-          </div>
-        </div>
-
-        <div class="card p-1 rounded-4">
-          <div class="card-body">
-            <h5 class="card-title">25+</h5>
-            <p class="card-text">Tech Companies</p>
-          </div>
-        </div>
-
-        <div class="card p-1 rounded-4">
-          <div class="card-body">
-            <h5 class="card-title">3</h5>
-            <p class="card-text">Days of Innovation</p>
-          </div>
-        </div>
-
-      </div>
-      </div>
-    </section>
-
-    <section class="container">
+    <section class="feautured-speakers container" id="featured-speakers">
       <h5 class="section-label">
         Featured Speakers
       </h5>
@@ -334,7 +263,7 @@
 
     </section>
 
-    <section class="container">
+    <section class="container sponsors">
 
       <h5 class="section-label">Our Sponsors</h5>
      
@@ -422,23 +351,25 @@
 
 
     <!----==================regsiter ================----->
-    <section class="register con" id="register">
+    <section class="register "id="register ">
+      
       <div class="register-content d-flex justify-content-center align-items-center">
-      <div class=" resgister-card position-relative w-50">
+      <div class=" resgister-card position-relative ">
           <h5 class="section-label">Stay Updated</h5>
           <p class="pb-3">Be the first to know about conference updates and early bird tickets</p>
-          <div class="input-elements d-flex gap-3 justify-content-center">
-          <input type="email" class="email text-start  py-2 rounded-5" name="email" id="email" placeholder="Enter your email address">
+          <div class="input-elements d-flex gap-3 justify-content-center flex-wrap">
+          <input type="email" class="email text-start  py-2 rounded-5 col-sm-12 col-md-6 col-lg-4" name="email" id="email" placeholder="Enter your email address">
           <input type="submit" value="Sign Up" class="btn btn-primary  btn rounded-5 px-4 py-2">
           </div>
         </div>
        </div> 
 
-      <div class="contact-content d-grid container">
-
-        <div class="contact-info form text-start ">
-          <form action="">
-            <h3>Send us A message</h3>
+      
+       <div class="contact-content   rounded-4 ">
+        <div class="row g-4">
+        <div class="contact-info form text-start col-lg-6 col-sm-12 ">
+          <form action="" class="d-flex flex-column gap-3 justify-content-center" >
+            <h3 class="section-label fs-1">Send Us a Message</h3>
               <div class="form-group">
                 <label for="firstname">Name</label>
                 <input type="text" class="rounded-4 text-start w-100" name="firstname" id="firstname" placeholder="John">
@@ -461,11 +392,13 @@
         </div>
 
 
-        <div class="contact-info info-cards">
+        <div class="contact-info info-cards col-lg-5 col-sm-12 ">
         <h2 class="section-label" >Get In Touch</h2>
 
           <div class="info-card">
-            <div class="info-card-icon">📍</div>
+            <div class="info-card-icon">
+               <i class="fa-solid fa-location-dot"></i>
+              </div>
             <div class="info-card-content">
               <h4>Visit Our Flagship Store</h4>
               <p>123 Fashion Avenue <br>
@@ -475,7 +408,10 @@
           </div>
 
           <div class="info-card">
-            <div class="info-card-icon">📞</div>
+            <div class="info-card-icon">
+               <i class="fa-solid fa-phone"> 
+                
+               </i></div>
             <div class="info-card-content">
               <h4>Call Us</h4>
               <p>Main: <a href="#"> +66 02 123 4567 </a><br>
@@ -485,7 +421,10 @@
           </div>
 
           <div class="info-card">
-            <div class="info-card-icon">✉️</div>
+            <div class="info-card-icon">
+               <i class="fa-solid fa-envelope"> 
+                
+               </i></div>
             <div class="info-card-content">
               <h4>Email Us</h4>
               <p>General:<a href="#"> hello@noir.fashion </a><br>
@@ -496,12 +435,22 @@
           </div>
 
         </div>
-       
-
       </div>
+</div>
+    </section>
 
-    </section>
-    </section>
+    <footer class="d-flex flex-column align-items-center gap-4">
+      <h2 class="footer-title" >Chain Summit</h2>
+      <p>November 14-16, 2026 • Bangkok Convention Center</p>
+         <div class="icons">
+         <a href="#about" class="btn btn-primary btn-lg rounded-5 px-4 py-3">T</a>
+          <a href="#about" class="btn btn-primary btn-lg rounded-5 px-4 py-3">L</a>
+          <a href="#about" class="btn btn-primary btn-lg rounded-5 px-4 py-3">F</a>
+          <a href="#about" class="btn btn-primary btn-lg rounded-5 px-4 py-3">I</a>
+           </div>
+<p> &copy 2026 Chain Summit Conference. All rights reserved. | Designed by TemplateMo</p>
+    </footer>
+
     <script src="bootstrap.bundle.min.js"></script>
   </body>
 
