@@ -21,29 +21,25 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-menu">
-            <li class="nav-item">
-              <!-- Added default active class for demo -->
-
-              <a class="nav-link active" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-              <label class="nav-link btn rounded-pill" for="btnradio1" href="#featured-speakers">Speakers</label>
-
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#schedule">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sponsors">Sponsors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#register">Register</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-menu gap-2 " id="navButtons">
+    <li class="nav-item">
+      <a class="z-2 btn rounded-pill active-custom text-light" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="z-2 btn rounded-pill text-light" href="#schedule">Schedule</a>
+    </li>
+    <li class="nav-item">
+      <a class="z-2 btn rounded-pill text-light" href="#speakers">Speakers</a>
+    </li>
+    <li class="nav-item">
+      <a class="z-2 btn rounded-pill text-light" href="#sponsors">Sponsors</a>
+    </li>
+    <li class="nav-item">
+      <a class="z-2 btn rounded-pill text-light" href="#register">Register</a>
+    </li>
+  </ul>
+</div>
       </div>
     </nav>
 
@@ -177,7 +173,7 @@
         </div>
       </div>
 
-      <div class="about-states d-grid mt-5">
+      <div class="about-states d-grid container mt-5 mx-auto">
         <div class="card p-1 rounded-4">
           <div class="card-body">
             <h5 class="card-title">50+</h5>
@@ -213,7 +209,7 @@
     <section class="container">
 
 
-      <section class="feautured-speakers container" id="featured-speakers">
+      <section class="speakers container" id="speakers">
         <h5 class="section-label">
           Featured Speakers
         </h5>
@@ -223,55 +219,45 @@
           <div class="card rounded-4">
             <div class="card-body d-flex flex-column align-items-center">
               <div class="speaker-icon d-flex justify-content-center align-items-center mb-4">DR</div>
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-              <p class="profession">dwdwd</p>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
+              <h5 class="fs-2 text-light">Dr. Sarah Chen</h5>
+              <p class="profession text">Chief AI Officer, TechCorp</p>
+              <p class="card-text">Leading researcher in deep learning and neural networks. Author of 40+ AI research papers.</p>
             </div>
           </div>
 
           <div class="card rounded-4">
             <div class="card-body d-flex flex-column align-items-center">
-              <div class="speaker-icon d-flex justify-content-center align-items-center mb-4">DR</div>
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-              <p class="profession">dwdwd</p>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
+              <div class="speaker-icon d-flex justify-content-center align-items-center mb-4">MJ</div>
+              <h5 class="fs-2 text-light">Marcus Johnson</h5>
+              <p class="profession text">Blockchain Architect, CryptoLabs</p>
+              <p class="card-text">Pioneer in decentralized systems and smart contract development for Fortune 500 companies.</p>
             </div>
           </div>
 
           <div class="card rounded-4">
             <div class="card-body d-flex flex-column align-items-center">
-              <div class="speaker-icon d-flex justify-content-center align-items-center mb-4">DR</div>
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-              <p class="profession">dwdwd</p>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
+              <div class="speaker-icon d-flex justify-content-center align-items-center mb-4">LP</div>
+              <h5 class="fs-2 text-light ">Dr. Lisa Park</h5>
+              <p class="profession text">ML Research Director, DataMind</p>
+              <p class="card-text">Expert in machine learning algorithms and AI ethics. Former lead scientist at major tech companies.</p>
             </div>
           </div>
 
           <div class="card rounded-4">
             <div class="card-body d-flex flex-column align-items-center">
-              <div class="speaker-icon d-flex justify-content-center align-items-center mb-4">DR</div>
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-              <p class="profession">dwdwd</p>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
+              <div class="speaker-icon d-flex justify-content-center align-items-center mb-4">AR</div>
+              <h5 class="fs-2 text-light">Alex Rodriguez</h5>
+              <p class="profession text">Founder, Neural Networks Inc</p>
+              <p class="card-text">Entrepreneur in AI-powered blockchain applications and scalable ML infrastructure.</p>
             </div>
           </div>
 
           <div class="card rounded-4">
             <div class="card-body d-flex flex-column align-items-center">
-              <div class="speaker-icon d-flex justify-content-center align-items-center mb-4">DR</div>
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-              <p class="profession">dwdwd</p>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
+              <div class="speaker-icon d-flex justify-content-center align-items-center mb-4">JW</div>
+              <h5 class="fs-2 text-light">Jennifer Wu</h5>
+              <p class="profession text">VP of Innovation, QuantumTech</p>
+              <p class="card-text">Specializes in quantum computing applications for AI and cryptography solutions.</p>
             </div>
           </div>
 
@@ -284,124 +270,282 @@
 
         <h5 class="section-label">Conference Schedule</h5>
 
-        <div class="btn-group gap-2 schedule-days" role="group" aria-label="Basic radio toggle button group">
-          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-          <label class="btn btn-outline-primary rounded-5 py-2 px-3" for="btnradio1">Radio 1</label>
-
-          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-          <label class="btn btn-outline-primary rounded-5 py-2 px-3" for="btnradio2">Radio 2</label>
-
-          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-          <label class="btn btn-outline-primary rounded-5 py-2 px-3" for="btnradio3">Radio 3</label>
+        <div class="schedule-days">
+          <!----------- Buttons ----------->
+        <div class="btn-group gap-2" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check " name="btnradio" id="day1" autocomplete="off" checked>
+          <input type="radio" class="btn-check" name="btnradio" id="day2" autocomplete="off">
+          <input type="radio" class="btn-check" name="btnradio" id="day3" autocomplete="off">
+         
+          <label class="btn tab-btn rounded-5 py-2 px-3" for="day1">Day 1</label>
+          <label class="btn tab-btn rounded-5 py-2 px-3" for="day2">Day 2</label>
+          <label class="btn tab-btn rounded-5 py-2 px-3" for="day3">Dau 3</label>
         </div>
 
-  <div class="schedule-cards row gap-2">
+<!--------------------cards --------------------->
+        <div class="schedule-cards row gap-2">
+      
+      <!---------------------->
+      <!-- Card 1 -->
+      <div class="schedule-card  day1 rounded-4 mt-3">
+        <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#collapseCard1" 
+           role="button" 
+           aria-expanded="false" 
+           aria-controls="collapseCard1">
+          <p class="schedule-content mb-0 d-flex align-items-center gap-3">
+            <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">9:30 - 10:00</span>
+            <span class="content d-flex flex-column align-items-start">
+              <span class="fs-4 text-light fw-bold">Registration & Welcome</span>
+              <span class="team w-100">Conference Team</span>
+            </span> 
+          </p>
+          <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
+        </a>
+      
+        <div class="collapse schedule-collapse" id="collapseCard1">
+          <div class="schedule-card-body text-secondary p-3">
+      Network with attendees and grab your conference materials.    </div>
+        </div>
+      </div>
+      <!---------------------->
+      <!-- Card 2-->
+      <div class="schedule-card  day1 rounded-4 mt-3">
+        <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#collapseCard2" 
+           role="button" 
+           aria-expanded="false" 
+           aria-controls="collapseCard2">
+          <p class="schedule-content mb-0 d-flex align-items-center gap-3">
+            <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">9:30 - 10:00</span>
+            <span class="content d-flex flex-column align-items-start">
+              <span class="fs-4 text-light fw-bold">Opening Keynote: The Future of AI</span>
+              <span class="team w-100">Dr. Sarah Chen</span>
+            </span> 
+          </p>
+          <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
+        </a>
+      
+        <div class="collapse schedule-collapse" id="collapseCard2">
+          <div class="schedule-card-body text-secondary p-3">
+      Exploring the next decade of AI and its impact on society.    </div>
+        </div>
+      </div>
+      <!---------------------->
+      <!-- Card 3 -->
+      <div class="schedule-card  day1 rounded-4 mt-3">
+        <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#collapseCard3" 
+           role="button" 
+           aria-expanded="false" 
+           aria-controls="collapseCard3">
+          <p class="schedule-content mb-0 d-flex align-items-center gap-3">
+            <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">10:45 - 11:30</span>
+            <span class="content d-flex flex-column align-items-start">
+              <span class="fs-4 text-light fw-bold">Blockchain Fundamentals</span>
+              <span class="team w-100">Marcus Johnson</span>
+            </span> 
+          </p>
+          <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
+        </a>
+      
+        <div class="collapse schedule-collapse" id="collapseCard3">
+          <div class="schedule-card-body text-secondary p-3">
+      Core principles of distributed ledger technology and real-world implementations. </div>
+        </div>
+      </div>
+      <!---------------------->
+      
+      <!---Card 4-->
+      <div class="schedule-card day1 rounded-4 mt-3">
+        <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#collapseCard4" 
+           role="button" 
+           aria-expanded="false" 
+           aria-controls="collapseCard4">
+          <p class="schedule-content mb-0 d-flex align-items-center gap-3">
+            <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">14:00 - 14:45</span>
+            <span class="content d-flex flex-column align-items-start">
+              <span class="fs-4 text-light fw-bold">Panel: AI Ethics</span>
+              <span class="team w-100">Expert Panel</span>
+            </span> 
+          </p>
+          <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
+        </a>
+      
+        <div class="collapse schedule-collapse" id="collapseCard4">
+          <div class="schedule-card-body text-secondary p-3">
+          Responsible AI development and governance frameworks.
+        </div>
+      </div>
+      <!---------------------->
+      </div>
+      
+      <!---Card 5-->
+      <div class="schedule-card day2 rounded-4 mt-3">
+        <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#collapseCard5" 
+           role="button" 
+           aria-expanded="false" 
+           aria-controls="collapseCard5">
+          <p class="schedule-content mb-0 d-flex align-items-center gap-3">
+            <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">09:00 - 09:45</span>
+            <span class="content d-flex flex-column align-items-start">
+              <span class="fs-4 text-light fw-bold">Deep Learning Architectures</span>
+              <span class="team w-100">Alex Rodriguez</span>
+            </span> 
+          </p>
+          <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
+        </a>
+      
+        <div class="collapse schedule-collapse" id="collapseCard5">
+          <div class="schedule-card-body text-secondary p-3">
+Advanced neural network designs and optimization techniques.
+        </div>
+      </div>
+      <!---------------------->
+      </div>
+      
+      <!---Card 6-->
+      <div class="schedule-card day2 rounded-4 mt-3">
+        <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#collapseCard6" 
+           role="button" 
+           aria-expanded="false" 
+           aria-controls="collapseCard6">
+          <p class="schedule-content mb-0 d-flex align-items-center gap-3">
+            <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">14:00 - 14:45</span>
+            <span class="content d-flex flex-column align-items-start">
+              <span class="fs-4 text-light fw-bold">Smart Contracts & DeFi</span>
+              <span class="team w-100">Marcus Johnson</span>
+            </span> 
+          </p>
+          <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
+        </a>
+      
+        <div class="collapse schedule-collapse" id="collapseCard6">
+          <div class="schedule-card-body text-secondary p-3">
+           Building decentralized financial applications and automated market makers.
+        </div>
+      </div>
+      <!---------------------->
+      </div>
+      
+      <!---Card 7-->
+      <div class="schedule-card day2 rounded-4 mt-3">
+        <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#collapseCard7" 
+           role="button" 
+           aria-expanded="false" 
+           aria-controls="collapseCard7">
+          <p class="schedule-content mb-0 d-flex align-items-center gap-3">
+            <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">14:00 - 17:00</span>
+            <span class="content d-flex flex-column align-items-start">
+              <span class="fs-4 text-light fw-bold">Hands-on Workshops</span>
+              <span class="team w-100">Various Experts</span>
+            </span> 
+          </p>
+          <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
+        </a>
+      
+        <div class="collapse schedule-collapse" id="collapseCard7">
+          <div class="schedule-card-body text-secondary p-3">
+Build your own Al-powered blockchain application with industry experts.    
+    </div>
+      </div>
+      <!---------------------->
+      </div>
+      <!---Card 8-->
+      <div class="schedule-card day3 rounded-4 mt-3">
+        <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#collapseCard8" 
+           role="button" 
+           aria-expanded="false" 
+           aria-controls="collapseCard8">
+          <p class="schedule-content mb-0 d-flex align-items-center gap-3">
+            <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">09:00 - 09:45</span>
+            <span class="content d-flex flex-column align-items-start">
+              <span class="fs-4 text-light fw-bold">Enterprise AI Implementation</span>
+              <span class="team w-100">Dr. Lisa Park</span>
+            </span> 
+          </p>
+          <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
+        </a>
+      
+        <div class="collapse schedule-collapse" id="collapseCard8">
+          <div class="schedule-card-body text-secondary p-3">
+            Strategies for scaling Al in large organizations.  </div>
+      </div>
+      <!---------------------->
+      </div>
+      
+      <!---Card 9-->
+      <div class="schedule-card day3 rounded-4 mt-3">
+        <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#collapseCard9" 
+           role="button" 
+           aria-expanded="false" 
+           aria-controls="collapseCard9">
+          <p class="schedule-content mb-0 d-flex align-items-center gap-3">
+            <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">14:00 - 14:45</span>
+            <span class="content d-flex flex-column align-items-start">
+              <span class="fs-4 text-light fw-bold">Startup Pitch Session</span>
+              <span class="team w-100">Selected Startups</span>
+            </span> 
+          </p>
+          <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
+        </a>
+      
+        <div class="collapse schedule-collapse" id="collapseCard9">
+          <div class="schedule-card-body text-secondary p-3">
+Innovative Al and blockchain startups present their solutions.
+        </div>
+      </div>
+      <!---------------------->
+      </div>
+      
+      <!---Card 10-->
+      <div class="schedule-card day3 rounded-4 mt-3">
+        <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#collapseCard10" 
+           role="button" 
+           aria-expanded="false" 
+           aria-controls="collapseCard10">
+          <p class="schedule-content mb-0 d-flex align-items-center gap-3">
+            <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">14:00 - 15:00</span>
+            <span class="content d-flex flex-column align-items-start">
+              <span class="fs-4 text-light fw-bold">Closing Ceremony</span>
+              <span class="team w-100">Conference Team</span>
+            </span> 
+          </p>
+          <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
+        </a>
+      
+        <div class="collapse schedule-collapse" id="collapseCard10">
+          <div class="schedule-card-body text-secondary p-3">
+Awards ceremony and networking finale.    </div>
+      </div>
+      <!---------------------->
+      </div>
+      
+      
+      </div>
 
-<!---------------------->
-<!-- Card 1 -->
-<div class="schedule-card rounded-4 mt-3">
-  <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
-     data-bs-toggle="collapse" 
-     href="#collapseCard1" 
-     role="button" 
-     aria-expanded="false" 
-     aria-controls="collapseCard1">
-    <p class="schedule-content mb-0 d-flex align-items-center gap-3">
-      <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">9:30 - 10:00</span>
-      <span class="content d-flex flex-column align-items-start">
-        <span class="fs-4 text-light fw-bold">Registration & Welcome</span>
-        <span class="team w-100">Conference Team</span>
-      </span> 
-    </p>
-    <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
-  </a>
+        </div>
 
-  <div class="collapse schedule-collapse" id="collapseCard1">
-    <div class="schedule-card-body text-secondary p-3">
-Network with attendees and grab your conference materials.    </div>
-  </div>
-</div>
-<!---------------------->
-<!-- Card 2-->
-<div class="schedule-card rounded-4 mt-3">
-  <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
-     data-bs-toggle="collapse" 
-     href="#collapseCard2" 
-     role="button" 
-     aria-expanded="false" 
-     aria-controls="collapseCard2">
-    <p class="schedule-content mb-0 d-flex align-items-center gap-3">
-      <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">9:30 - 10:00</span>
-      <span class="content d-flex flex-column align-items-start">
-        <span class="fs-4 text-light fw-bold">Opening Keynote: The Future of AI</span>
-        <span class="team w-100">Dr. Sarah Chen</span>
-      </span> 
-    </p>
-    <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
-  </a>
-
-  <div class="collapse schedule-collapse" id="collapseCard2">
-    <div class="schedule-card-body text-secondary p-3">
-Exploring the next decade of AI and its impact on society.    </div>
-  </div>
-</div>
-<!---------------------->
-<!-- Card 3 -->
-<div class="schedule-card rounded-4 mt-3">
-  <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
-     data-bs-toggle="collapse" 
-     href="#collapseCard3" 
-     role="button" 
-     aria-expanded="false" 
-     aria-controls="collapseCard3">
-    <p class="schedule-content mb-0 d-flex align-items-center gap-3">
-      <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">10:45 - 11:30</span>
-      <span class="content d-flex flex-column align-items-start">
-        <span class="fs-4 text-light fw-bold">Blockchain Fundamentals</span>
-        <span class="team w-100">Marcus Johnson</span>
-      </span> 
-    </p>
-    <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
-  </a>
-
-  <div class="collapse schedule-collapse" id="collapseCard3">
-    <div class="schedule-card-body text-secondary p-3">
-Core principles of distributed ledger technology and real-world implementations. </div>
-  </div>
-</div>
-<!---------------------->
-
-<!---Card 4-->
-<div class="schedule-card rounded-4 mt-3">
-  <a class="w-100 schedule-header accordion h-100 text-decoration-none d-flex align-items-center justify-content-between" 
-     data-bs-toggle="collapse" 
-     href="#collapseCard4" 
-     role="button" 
-     aria-expanded="false" 
-     aria-controls="collapseCard4">
-    <p class="schedule-content mb-0 d-flex align-items-center gap-3">
-      <span class="schedule-badge badge d-flex align-items-center fs-6 justify-content-center rounded-3 py-2 px-4 my-2">14:00 - 14:45</span>
-      <span class="content d-flex flex-column align-items-start">
-        <span class="fs-4 text-light fw-bold">Panel: AI Ethics</span>
-        <span class="team w-100">Expert Panel</span>
-      </span> 
-    </p>
-    <i class="fa-solid fa-circle-arrow-down schedule-btn"></i>
-  </a>
-
-  <div class="collapse schedule-collapse" id="collapseCard4">
-    <div class="schedule-card-body text-secondary p-3">
-    Responsible AI development and governance frameworks.
-  </div>
-</div>
-<!---------------------->
-</div>
-
-
-</div>
       </section>
 
-     <section class="container sponsors">
+     <section class="container sponsors" id="sponsors">
   <h5 class="section-label">Our Sponsors</h5>
 
   <div class="sponsors-bg position-relative sponsor-section">
@@ -491,7 +635,7 @@ Core principles of distributed ledger technology and real-world implementations.
 
 
       <!----==================regsiter ================----->
-      <section class="register" id="register ">
+      <section class="register" id="register">
 
         <div class="register-content d-flex justify-content-center align-items-center">
           <div class=" resgister-card position-relative ">
@@ -537,55 +681,55 @@ Core principles of distributed ledger technology and real-world implementations.
             </div>
 
 
-            <div class="contact-info info-cards col-lg-5 col-sm-12 ">
-              <h2 class="section-label">Get In Touch</h2>
+            <div class="contact-info info-cards col-lg-5 col-sm-12">
+  <h2 class="section-label">Get In Touch</h2>
 
-              <div class="info-card">
-                <div class="info-card-icon">
-                  <i class="fa-solid fa-location-dot"></i>
-                </div>
-                <div class="info-card-content">
-                  <h4>Visit Our Flagship Store</h4>
-                  <p>123 Fashion Avenue <br>
-                    Bangkok, Thailand 10110 <br>
-                    Siam District </p>
-                </div>
-              </div>
+  <div class="info-card">
+    <div class="info-card-icon">
+      <i class="fa-solid fa-location-dot"></i>
+    </div>
+    <div class="info-card-content">
+      <h4>VENUE</h4>
+      <p>Bangkok Convention Center <br>
+        999 Rama IV Road <br>
+        Bangkok, Thailand</p>
+    </div>
+  </div>
 
-              <div class="info-card">
-                <div class="info-card-icon">
-                  <i class="fa-solid fa-phone">
+  <div class="info-card">
+    <div class="info-card-icon">
+      <i class="fa-solid fa-envelope"></i>
+    </div>
+    <div class="info-card-content">
+      <h4>EMAIL</h4>
+      <p><a href="mailto:info@chainsummit.com">info@chainsummit.com</a></p>
+    </div>
+  </div>
 
-                  </i>
-                </div>
-                <div class="info-card-content">
-                  <h4>Call Us</h4>
-                  <p>Main: <a href="#"> +66 02 123 4567 </a><br>
-                    Support:<a href="#"> +66 02 123 4568</a><br>
-                    Mon-Fri, 9AM-6PM ICT </p>
-                </div>
-              </div>
+  <div class="info-card">
+    <div class="info-card-icon">
+      <i class="fa-solid fa-phone"></i>
+    </div>
+    <div class="info-card-content">
+      <h4>PHONE</h4>
+      <p><a href="tel:+6621234567">+66 2 123 4567</a></p>
+    </div>
+  </div>
 
-              <div class="info-card">
-                <div class="info-card-icon">
-                  <i class="fa-solid fa-envelope">
-
-                  </i>
-                </div>
-                <div class="info-card-content">
-                  <h4>Email Us</h4>
-                  <p>General:<a href="#"> hello@noir.fashion </a><br>
-                    Support:<a href="#"> +66 02 123 4568</a><br>
-                    Press:<a href="#"> press@noir.hardware</a><br>
-                  </p>
-                </div>
-              </div>
-
-            </div>
+  <div class="info-card">
+    <div class="info-card-icon">
+      <i class="fa-solid fa-calendar-days"></i>
+    </div>
+    <div class="info-card-content">
+      <h4>EVENT DATE</h4>
+      <p>December 15-17, 2025 <br>
+        9:00 AM - 6:00 PM Daily</p>
+    </div>
+  </div>
           </div>
         </div>
       </section>
-
+    
       <footer class="d-flex flex-column align-items-center gap-4">
         <h2 class="footer-title">Chain Summit</h2>
         <p>November 14-16, 2026 • Bangkok Convention Center</p>
@@ -598,6 +742,7 @@ Core principles of distributed ledger technology and real-world implementations.
         <p> &copy 2026 Chain Summit Conference. All rights reserved. | Designed by TemplateMo</p>
       </footer>
 
+      <script src="main.js"></script>
       <script src="bootstrap.bundle.min.js"></script>
   </body>
 
